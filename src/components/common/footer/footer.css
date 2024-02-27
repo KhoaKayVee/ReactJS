@@ -1,0 +1,189 @@
+.newletter {
+    background-color: #1eb2a6;
+    padding: 50px 0;
+    color: #fff;
+  }
+  .newletter .right,
+  .newletter .left {
+    padding-right: 50px;
+  }
+  .newletter h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .newletter .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .newletter input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    height: 30px;
+  }
+  .newletter i {
+    padding: 12px;
+    color: #1eb2a6;
+    background-color: #333;
+    margin-left: 1px;
+    transition: 0.8s;
+  }
+
+  .newletter i:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: #eeeeee;
+  }
+  footer .container {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 4fr 3fr;
+    grid-gap: 30px;
+    background-color: grey;
+  }
+  @media screen and (max-width: 768px) {
+    footer .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  footer .logo span {
+    color: #1eb2a6;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 65px;
+    padding-top: 50px!important;
+  }
+
+
+  footer .logo h1 {
+    font-size: 40px;
+    width: 100%;
+    margin-left: 15px;
+    color: #fff;
+    margin-top: 68px;
+  }
+
+  footer .logo p {
+    color: #fff;
+    margin-left: 55px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  footer .logo .icon {
+    background-color: #1eb2a6;
+    color: white;
+    margin-left: 52px;
+  }
+
+  footer .logo .icon:hover{
+    opacity: 0.6;
+  }
+
+  footer h3 {
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 22px;
+    color: #fff;
+  }
+  footer ul li {
+    margin-bottom: 20px;
+  }
+  footer .link li::before {
+    content: "⟶";
+    color: #1eb2a6;
+    margin-right: 5px;
+  }
+
+  footer .link .ViewCourse::before { 
+    content: "=>";
+    color: #1eb2a6;
+    margin-right: 5px;
+    font-weight: 900;
+  }
+  footer .link .ViewCourse:hover {
+    opacity: 0.6;
+  }
+
+  footer .link .FeeCourse::before {
+    content: "=>";
+    color: #1eb2a6;
+    margin-right: 5px;
+    font-weight: 900;
+  }
+
+  footer .link .FeeCourse:hover {
+    opacity: 0.6;
+  }
+
+  footer .items {
+    margin-bottom: 30px;
+    background-color: grey;
+  }
+
+  footer .items:hover {
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 0.8s;
+  }
+
+  footer .items img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  footer .items .text {
+    padding: 0;
+    margin-right: 120px;
+  }
+
+  footer .items span,
+  footer .items i {
+    font-size: 12px;
+    color: #1eb2a6;
+    margin-right: 5px;
+    text-transform: capitalize;
+  }
+  footer h4 {
+    font-weight: 400;
+    color: #fff;
+    margin-top: 5px;
+  }
+  footer .last ul li {
+    display: flex;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  footer .last i {
+    width: 60px;
+    font-size: 20px;
+    color: #1eb2a6;
+  }
+  .legal {
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    background-color: #1eb2a6;
+  }
+  .legal p {
+    font-size: 15px;
+    justify-content: space-between;
+  }
+  .legal i {
+    color: black;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+.newletter .flexSB {
+  background-color: #1eb2a6;
+}
